@@ -5,7 +5,8 @@
 ![Workspace 2](assets/screenshot2.png)
 ![Workspace 3](assets/screenshot3.png)
 ![Workspace 4](assets/screenshot4.png)
-
+![Workspace 5](assets/screenshot5.png)
+![Workspace 6](assets/screenshot6.png)
 
 ## Required packages
 - Hyprland (duh)
@@ -53,7 +54,7 @@ Then, moving on, clone this github repo:
 git clone https://github.com/akshatm1/arch-dotfiles-v2/ ~/
 ```
 
-After doing that, just copy and dump the whole thing into your ``.config/`` directory(Since I don't anything about those flashy ML4W stuff as it never worked for me):
+After doing that, just copy and dump the whole thing into your ``.config/`` directory(Since I don't know anything about those flashy ML4W stuff as it never worked for me):
 
 ```
 cp -r ~/arch-dotfiles-v2/* ~/.config/
