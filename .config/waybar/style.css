@@ -1,0 +1,101 @@
+* {
+    border: none;
+    border-radius: 5px;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", "Font Awesome 5 Free", sans-serif;
+    font-size: 12px; 
+    min-height: 0;
+}
+
+window#waybar {
+    background: #0C0F18; 
+    color: #0C0F14;
+}
+
+/* window#waybar { */
+    /* Slightly lowered opacity steps so the background blur shines through beautifully */
+/*    background: linear-gradient(
+        to top,
+        rgba(0, 12, 15, 0.85) 0%,
+        rgba(0, 12, 15, 0.78) 15%,
+        rgba(0, 12, 15, 0.68) 30%,
+        rgba(0, 12, 15, 0.55) 45%,
+        rgba(0, 12, 15, 0.42) 60%,
+        rgba(0, 12, 15, 0.32) 75%,
+        rgba(0, 12, 15, 0.25) 90%,
+        rgba(0, 12, 15, 0.20) 100%
+    );
+    color: #ffffff;
+} */
+
+#workspaces button {
+    padding: 0 6px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: #888CA7;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #90CDE2; 
+    font-weight: bold;
+}
+
+#clock {
+    color: #8B8CA8; /* Your warm yellow color */
+    padding: 0 4px;
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+/* Target the right-side time clock specifically */
+/* #clock.time { */
+/*    color: #8B8CA8; Clean light gray */
+/*    padding: 0 4px; */
+
+#network, #temperature, #battery, #tray {
+    padding: 0 4px;
+    color: #8B8CA8;
+    margin-left: 8px; 
+}
+
+/* Green light celebration when it hits full capacity */
+#battery.full {
+    color: #a6e3a1; /* Full charge emerald green */
+    font-weight: bold;
+}
+
+/* Keeps charging blue or teal while it fills up */
+#battery.charging {
+    color: #8B8CA8; /* Charging blue */
+}
+
+/* Low capacity warnings override everything else */
+#battery.warning {
+    color: #f9e2af; /* Warning yellow */
+}
+
+#battery.critical:not(.charging) {
+    color: #f38ba8; /* Low battery urgent red */
+}
+
+#temperature.critical {
+    color: #f38ba8; /* Hot alert red/pink */
+    font-weight: bold;
+    animation-name            : blink;
+    animation-duration        : 0.5s;
+    animation-timing-function : linear;
+    animation-iteration-count : infinite;
+    animation-direction       : alternate
+}
+
+#pulseaudio {
+    padding: 0 4px;
+    color: #8B8CA8; /* Soft lavender tint */
+    margin-left: 10px;
+}
+
+#pulseaudio.muted {
+    padding: 0 4px;
+    color: #C13128;
+    margin-left: 10px;
+}

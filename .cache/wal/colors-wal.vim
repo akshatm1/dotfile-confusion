@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/akshat/Wallpaper.png"
+let background = "#0a0a11"
+let foreground = "#c0d0e0"
+let cursor     = "#c0d0e0"
+
+" Colors
+let color0  = "#0a0a11"
+let color1  = "#444659"
+let color2  = "#525569"
+let color3  = "#60647A"
+let color4  = "#6D738A"
+let color5  = "#7988A1"
+let color6  = "#8895AF"
+let color7  = "#c0d0e0"
+let color8  = "#86919c"
+let color9  = "#444659"
+let color10 = "#525569"
+let color11 = "#60647A"
+let color12 = "#6D738A"
+let color13 = "#7988A1"
+let color14 = "#8895AF"
+let color15 = "#c0d0e0"

@@ -1,0 +1,21 @@
+set $wallpaper /home/akshat/Wallpaper.png
+
+set $background #0a0a11
+set $foreground #c0d0e0
+
+set $color0 #0a0a11
+set $color1 #444659
+set $color2 #525569
+set $color3 #60647A
+set $color4 #6D738A
+set $color5 #7988A1
+set $color6 #8895AF
+set $color7 #c0d0e0
+set $color8 #86919c
+set $color9 #444659
+set $color10 #525569
+set $color11 #60647A
+set $color12 #6D738A
+set $color13 #7988A1
+set $color14 #8895AF
+set $color15 #c0d0e0
