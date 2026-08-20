@@ -13,7 +13,7 @@
 - Hyprpaper (For Wallpaper)
 - Kitty (Terminal)
 - Fastfetch (For flexing)
-- Btop/Htop (Optional, but you will need it)
+- Btop/Htop (For not feeling like a boomer killing processes with kill and oh my lord, using **top**)
 - Wofi (So you don't need to run apps from the terminal)
 - FiraCode Nerd Font, JetBrains Nerd Font, Awesome Font (Those are fonts, no need for thanking)
 - NetworkManager (For, you know, networking)
